@@ -1,0 +1,69 @@
+# 🔐 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🧪 Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# 📦 Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+# 🔑 Environment variables
+.env
+.env.*
+
+# 🗄️ Database
+db.sqlite3
+db.sqlite3-journal
+
+# 📁 Media & Static files
+/media/
+/staticfiles/
+
+# 🧾 Logs
+*.log
+
+# 🧠 Django stuff
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+
+# 🔒 Migrations (optional – keep if you want)
+**/migrations/*
+!**/migrations/__init__.py
+
+# 🧑‍💻 IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 📦 Node (if frontend inside same repo)
+node_modules/
+dist/
+build/
+
+# 🔥 Misc
+*.bak
+*.tmp
