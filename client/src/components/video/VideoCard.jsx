@@ -8,13 +8,16 @@ export default function VideoCard({ video }) {
       />
 
       <div className="p-3">
-        <h3 className="text-md font-semibold line-clamp-2">
-          {video.title}
-        </h3>
+        <h3 className="text-md font-semibold line-clamp-2">{video.title}</h3>
 
         <p className="text-sm text-gray-400 mt-1">
           {video.video_category || "Uncategorized"}
         </p>
+
+        <p className="text-lg font-light text-white-700 mt-1 italic opacity-90">
+          {video.description || ""}
+        </p>
+
         <button className="w-full bg-red-500 hover:bg-red-600 p-2 rounded font-semibold mt-2">
           <a href={`/video/${video.id}`} className="text-white no-underline">
             Watch Video
