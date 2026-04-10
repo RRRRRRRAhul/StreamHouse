@@ -40,7 +40,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-black text-white shadow-md">
-      <h1 className="text-xl font-bold text-red-500">StreamHub</h1>
+      <h1 className="text-xl font-bold text-red-500">StreamHouse</h1>
 
       <div className="flex gap-4">
         {currentPage != "home" && (
